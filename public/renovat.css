@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Oswald:wght@200..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*---------HEADER--------*/
+
+.listtop{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(233, 179, 3);
+    padding: 5px 0 0 0;
+}
+.listtop ul{
+    padding-right: 4rem;
+}
+.listtop ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding:0 1rem 0 0;
+}
+.listtop ul li a{
+    color: black;
+    padding:0 1rem 0 1rem;
+    text-decoration: none;
+}
+.listtop ul li i{
+    font-size: 18px;
+}
+
+.menu ul{
+    padding-right:4rem;
+    gap: 1rem;    
+}
+.menu ul li a{
+    font-size: 20px;
+    color: black;
+}
+.menu ul li a:hover{
+    color: rgb(233, 179, 3)     ;
+}
+
+/*----------PART ONE------------*/
+
+.carousel-item img{
+    height: 100vh;
+}
+.image-overlay{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0, .7) 50%, rgba(0,0,0, .7)50%);
+    background-size: 3px 3px;
+    z-index: -.999;
+}
+.text{
+    position: absolute;
+    top: -27rem;
+    left: 0rem;
+    text-align: left;
+}
+.text h5{
+    color: rgb(233, 179, 3);
+    font-size: 40px;
+}
+.text h1{
+    font-size: 70px;
+}
+.text button{
+    color: white;
+}
+
+/*---------PART TWO----------------*/
+
+.two{
+    margin-top:5rem;
+}
+.card{
+    border:1px solid rgb(149, 146, 146);
+    transition: 0.3s;
+}
+.card:hover{
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+    transform: scale(1);
+}
+
+/*------------PART THREE------------*/
+
+.three{
+    margin-top: 5rem;
+    background:rgba(0,0,0,0.55) url(images/construction3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    height: 30vh;
+    
+}
+
+.btn button{
+    color:white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding:10px 22px 10px 22px;
+    font-size:21px;
+}
+.btn button:hover{
+    color: rgb(233, 179, 3);
+    background-color: white;
+    
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem;
+    color: white;
+}
+
+/*-------------PART FOUR-----------------*/
+
+.four{
+    margin-top: 5rem;   
+}
+
+/*--------------- PART FIVE ----------------*/
+
+.five{
+    margin-top: 5rem;
+}
+
+
+/*------------------ LAST PART ------------------*/
+.last{
+    margin-top: 5rem;
+    background: rgba(23, 24, 34, 0.8) url(images/dozer.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 3rem 0 3rem 0;
+    color: white;
+}    
+.con-last img{
+    width: 60%;
+}
+.con-last i{
+    color: rgb(233, 179, 3);
+    font-size: 20px;
+    padding-right: 8px
+}
+.qlinks a{
+    text-decoration: none;
+    color: white;
+}
+.qlinks a:hover{
+    color: rgb(233, 179, 3);
+}
+.services a{
+    text-decoration: none;
+    color: white;
+}
+.services a:hover{
+    color: rgb(233, 179, 3);
+}
+
+

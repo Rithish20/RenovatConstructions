@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Oswald:wght@200..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*---------HEADER--------*/
+
+.listtop{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(233, 179, 3);
+    padding: 5px 0 0 0;
+}
+.listtop ul{
+    padding-right: 4rem;
+}
+.listtop ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding:0 1rem 0 0;
+}
+.listtop ul li a{
+    color: black;
+    padding:0 1rem 0 1rem;
+    text-decoration: none;
+}
+.listtop ul li i{
+    font-size: 18px;
+}
+
+.menu ul{
+    padding-right:4rem;
+    gap: 1rem;    
+}
+.menu ul li a{
+    font-size: 20px;
+    color: black;
+}
+.menu ul li a:hover{
+    color: rgb(233, 179, 3);
+}
+
+/*------------------------- PART ONE -----------------------------------*/
+
+.one{
+    background: rgba(0, 0, 0, 0.80) url(images/truck.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-blend-mode: darken;
+    height: 40vh;
+}
+.content{
+    color: white;
+    text-align: center;
+    padding-top: 7rem;
+}
+.content a{
+    text-decoration: none;
+    color: rgb(233, 179, 3);
+}
+
+/*---------------------------- PART TWO -------------------------------------------*/
+.two{
+    margin: 5rem 0 5rem 0;
+
+}
+.inputgroup{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.inputgroup input{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.inputgroup textarea{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.inputgroup button{
+    padding: 10px;
+    color:rgb(233, 179, 3);
+    border: 3px solid rgb(233, 179, 3);
+}
+.inputgroup button:hover{
+    color: white;
+    background-color: rgb(233, 179, 3);
+    cursor:crosshair;
+}
+
+/* -----------------------------------------PART THREE-------------------------------------- */
+
+.maps iframe{
+    width: 100%;
+    height: 50vh;
+}
+
+/* ----------------------------------------LAST PART-------------------------------------------- */
+
+.last{
+    background: rgba(23, 24, 34, 0.8) url(images/dozer.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 3rem 0 3rem 0;
+    color: white;
+}    
+.con-last img{
+    width: 60%;
+}
+.con-last i{
+    color: rgb(233, 179, 3);
+    font-size: 20px;
+    padding-right: 8px
+}
+.qlinks a{
+    text-decoration: none;
+    color: white;
+}
+.qlinks a:hover{
+    color: rgb(233, 179, 3);
+}
+.services a{
+    text-decoration: none;
+    color: white;
+}
+.services a:hover{
+    color: rgb(233, 179, 3);
+}
